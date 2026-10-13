@@ -1,0 +1,4 @@
+name "Void Expansion"
+about "Adds dozens of new balanced systems to the Graveyard and Tangled Shroud. Useless plugin, solely to make getting lost easier."
+authors
+	Living_Adblocker
