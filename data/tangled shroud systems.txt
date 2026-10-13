@@ -1,0 +1,2050 @@
+# East of Predecessor Space
+
+system "Avaru-Ssora-Mavri"
+	pos 164 920
+	government Uninhabited
+	habitable 320
+	link Kavri-Noua
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/a-supergiant
+		distance 200
+		period 200
+	object
+		sprite star/o-dwarf
+		distance 600
+		period 600
+	object
+		sprite planet/browndwarf-y
+		distance 6240
+		period 6240
+		object
+			sprite planet/ice4
+			distance 520
+			period 520
+
+system Kavri-Noua
+	pos 167 955
+	government Uninhabited
+	habitable 320
+	link "Uuraa-Ljosa"
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/b-supergiant
+	object
+		sprite planet/lava0
+		distance 2250
+		period 2000
+	object  
+		sprite planet/dust7-b
+		distance 3890
+		period 3000
+
+system Savaa-Khori
+	pos 208 1013
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/void-scar
+			scale 8.0
+		distance 2200
+		period 2000
+		hazard "Predecessors Void Scar Erosion" 6
+	object
+		sprite star/f0
+		distance 40
+		period 80
+	object
+		sprite star/k-dwarf
+		distance 200
+		period 80
+	object
+		sprite planet/gas5
+		distance 2200
+		period 2000
+		object  
+			sprite planet/dust6-b
+			distance 380
+			period 60
+		object
+			sprite planet/ice0
+			distance 840
+			period 72
+	object
+		sprite planet/gas12
+		distance 5000
+		period 5000
+	object
+		sprite planet/ice5
+		distance 8000
+		period 12000
+
+system Avaso-Ryuit
+	pos 106 1052
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/f0
+	object
+		sprite planet/gas2
+		distance 1230
+		period 1230
+		object
+			sprite planet/luna
+			distance 350
+			period 350
+		object
+			sprite planet/ice0
+			distance 500
+			period 500
+	object
+		sprite planet/forest1
+		distance 2890
+		period 2890
+
+system Kiru-Vasaa
+	pos 151 1130
+	government Uninhabited
+	habitable 320
+	link Ouraa-Mavri
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite planet/browndwarf-l-rogue
+	object
+		sprite planet/ganymede
+		distance 800
+		period 800
+	object
+		sprite planet/desert4
+		distance 1250
+		period 2000
+	object
+		sprite planet/dust0
+		distance 4000
+		period -8000
+
+system Ouraa-Mavri
+	pos 175 1090
+	government Uninhabited
+	habitable 320
+	link Kiru-Vasaa
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/g0
+	object
+		sprite planet/gas10
+		distance 1800
+		period 2000
+	object 
+		sprite planet/ice7
+		distance 2390
+		period 2000
+
+system Kasoa-Ljura
+	pos 288 991
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Khaso-Nuua
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas14-b
+		distance 1186.32
+		period 913.667
+		object
+			sprite planet/luna-b
+			distance 266
+			period 17.668
+		object  
+			sprite planet/ocean0-b
+			distance 422
+			period 31.607
+	object
+		sprite planet/cloud0
+		distance 2600
+		period 2600
+		object
+			sprite planet/desert4
+			distance 235.36
+			period 32
+	object
+		sprite planet/gas2
+		distance 3991.81
+		period 5639.49
+		object
+			sprite planet/rhea
+			distance 209
+			period 18.308
+		object
+			sprite planet/dust3
+			distance 322
+			period 35.011
+	object
+		sprite planet/rock13
+		distance 5600
+		period 10000
+
+
+system Khaso-Nuua
+	pos 327 959
+	government Uninhabited
+	habitable 320
+	link Uavri-Ssova
+	link Kasoa-Ljura
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/m0
+	object
+		sprite planet/titan
+		distance 980
+		period 980
+	object
+		sprite planet/tethys-b
+		distance 1112
+		period 1112
+	object
+		sprite planet/gas2
+		distance 3502
+		period 3502
+	object "TS Wormhole One"
+		sprite planet/wormhole-red
+		distance 2550
+		period 1389.05
+		
+system Viraa-Cavro
+	pos 368 861
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/void-scar
+			scale 8.0
+		distance 2200
+		period 2000
+		hazard "Predecessors Void Scar Erosion" 6
+	object
+		sprite star/f0
+		distance 40
+		period 80
+	object
+		sprite star/k-dwarf
+		distance 200
+		period 80
+	object
+		sprite planet/gas5
+		distance 2200
+		period 2000
+		object  
+			sprite planet/dust6-b
+			distance 380
+			period 60
+		object
+			sprite planet/ice0
+			distance 840
+			period 72
+	object
+		sprite planet/gas12
+		distance 5000
+		period 5000
+	object
+		sprite planet/ice5
+		distance 8000
+		period 12000
+	object "TS Wormhole One"
+		sprite planet/wormhole-red
+		distance 2550
+		period 1389.05
+
+planet "TS Wormhole One"
+	attributes "requires: quantum keystone"
+	wormhole "TS Wormhole 1"
+
+wormhole "TS Wormhole 1"
+	mappable
+	link Khaso-Nuua Viraa-Cavro
+	link Viraa-Cavro Khaso-Nuua
+	color "wormholes: Ember Waste"
+
+system Sola-Kairu
+	pos 359 1030
+	government Uninhabited
+	habitable 320
+	link Navaa-Oubri
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/b-supergiant
+	object
+		sprite planet/lava0
+		distance 2250
+		period 2000
+	object  
+		sprite planet/dust7-b
+		distance 3890
+		period 3000
+
+system Navaa-Oubri
+	pos 371 1085
+	government Uninhabited
+	habitable 320
+	link Sola-Kairu
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/a-supergiant
+		distance 200
+		period 200
+	object
+		sprite star/o-dwarf
+		distance 600
+		period 600
+	object
+		sprite planet/browndwarf-y
+		distance 6240
+		period 6240
+		object
+			sprite planet/ice4
+			distance 520
+			period 520
+		
+system Kharu-Ijsoa
+	pos 371 1137
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/f0
+	object
+		sprite planet/gas2
+		distance 1230
+		period 1230
+		object
+			sprite planet/luna
+			distance 350
+			period 350
+		object
+			sprite planet/ice0
+			distance 500
+			period 500
+	object
+		sprite planet/forest1
+		distance 2890
+		period 2890
+
+		
+		
+system Avasa-Loua
+	pos 476 1209
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite planet/browndwarf-l-rogue
+	object
+		sprite planet/ganymede
+		distance 800
+		period 800
+	object
+		sprite planet/desert4
+		distance 1250
+		period 2000
+	object
+		sprite planet/dust0
+		distance 4000
+		period -8000
+		
+system Kisou-Ryava
+	pos 458 1132
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/g0
+	object
+		sprite planet/gas10
+		distance 1800
+		period 2000
+	object 
+		sprite planet/ice7
+		distance 2390
+		period 2000
+		
+system Luasa-Khavo
+	pos 509 1273
+	government Uninhabited
+	habitable 320
+	link Oorua-Jasri
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas14-b
+		distance 1186.32
+		period 913.667
+		object
+			sprite planet/luna-b
+			distance 266
+			period 17.668
+		object  
+			sprite planet/ocean0-b
+			distance 422
+			period 31.607
+	object
+		sprite planet/gas2
+		distance 3991.81
+		period 5639.49
+		object
+			sprite planet/rhea
+			distance 209
+			period 18.308
+		object
+			sprite planet/dust3
+			distance 322
+			period 35.011
+		
+system Oorua-Jasri
+	pos 624 1251
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Luasa-Khavo
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite planet/browndwarf-l-rogue
+	object
+		sprite planet/ganymede
+		distance 800
+		period 800
+	object
+		sprite planet/desert4
+		distance 1250
+		period 2000
+	object
+		sprite planet/dust0
+		distance 4000
+		period -8000
+
+system Uouka-Savri
+	pos 619 1185
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/void-scar
+			scale 8.0
+		distance 2200
+		period 2000
+		hazard "Predecessors Void Scar Erosion" 6
+	object
+		sprite star/f0
+		distance 40
+		period 80
+	object
+		sprite star/k-dwarf
+		distance 200
+		period 80
+	object
+		sprite planet/ice5
+		distance 8000
+		period 12000
+		
+system Vasoa-Nouja
+	pos 483 1058
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Kiraa-Ssalu
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/f0
+	object
+		sprite planet/gas2
+		distance 1230
+		period 1230
+		object
+			sprite planet/luna
+			distance 350
+			period 350
+		object
+			sprite planet/ice0
+			distance 500
+			period 500
+	object
+		sprite planet/forest1
+		distance 2890
+		period 2890
+
+system Kiraa-Ssalu
+	pos 519 1073
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Vasoa-Nouja
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/a-supergiant
+		distance 200
+		period 200
+	object
+		sprite star/o-dwarf
+		distance 600
+		period 600
+	object
+		sprite planet/browndwarf-y
+		distance 6240
+		period 6240
+		object
+			sprite planet/ice4
+			distance 520
+			period 520
+
+		
+system Aubla-Ryoro
+	pos 653 1100
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Kavasa-Ujloa
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/f0
+	object
+		sprite planet/gas2
+		distance 1230
+		period 1230
+		object
+			sprite planet/luna
+			distance 350
+			period 350
+		object
+			sprite planet/ice0
+			distance 500
+			period 500
+	object
+		sprite planet/forest1
+		distance 2890
+		period 2890
+		
+system Kavasa-Ujloa
+	pos 677 1116
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Aubla-Ryoro
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/b-supergiant
+	object
+		sprite planet/lava0
+		distance 2250
+		period 2000
+	object  
+		sprite planet/dust7-b
+		distance 3890
+		period 3000
+		
+system Noura-Khasi
+	pos 670 1000
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/carbon-core
+	object
+		sprite star/carbon
+	object
+		sprite planet/lava3
+		distance 2300
+		period 2300
+		object
+			sprite planet/dust0
+			distance 223
+			period 223
+	object
+		sprite planet/desert10-b
+		distance 3430
+		period 3430
+		
+		
+system Savaa-Ljiru
+	pos 760 1020
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/a-supergiant
+		distance 200
+		period 200
+	object
+		sprite star/o-dwarf
+		distance 600
+		period 600
+	object
+		sprite planet/browndwarf-y
+		distance 6240
+		period 6240
+		object
+			sprite planet/ice4
+			distance 520
+			period 520
+		
+system Oubri-Vaasa
+	pos 553 1030
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite planet/browndwarf-l-rogue
+	object
+		sprite planet/ganymede
+		distance 800
+		period 800
+	object
+		sprite planet/desert4
+		distance 1250
+		period 2000
+	object
+		sprite planet/dust0
+		distance 4000
+		period -8000
+	object "TS Wormhole Two"
+		sprite planet/wormhole-red
+		distance 2550
+		period 1389.05
+
+
+system Khasia-Rouva
+	pos 613 940
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite planet/desert6-b
+		distance 1451
+		period 312.662
+	object
+		sprite planet/ice0-b
+		distance 2681
+		period 785.272
+	object
+		sprite planet/gas9-b
+		distance 4699
+		period 1822.14
+		object
+			sprite planet/miranda-b
+			distance 239
+			period 174.787
+	object "TS Wormhole Two"
+		sprite planet/wormhole-red
+		distance 2550
+		period 1389.05
+
+planet "TS Wormhole Two"
+	attributes "requires: quantum keystone"
+	wormhole "TS Wormhole 2"
+
+wormhole "TS Wormhole 2"
+	mappable
+	link Oubri-Vaasa Khasia-Rouva
+	link Khasia-Rouva Oubri-Vaasa
+	color "wormholes: Ember Waste"
+
+system Avoua-Solri
+	pos 516 954
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/void-scar
+			scale 8.0
+		distance 2200
+		period 2000
+		hazard "Predecessors Void Scar Erosion" 6
+	object
+		sprite planet/gas5
+		distance 2200
+		period 2000
+		object  
+			sprite planet/dust6-b
+			distance 380
+			period 60
+		object
+			sprite planet/ice0
+			distance 840
+			period 72
+	object
+		sprite planet/gas12
+		distance 5000
+		period 5000
+	object
+		sprite planet/ice5
+		distance 8000
+		period 12000
+		
+system Kiru-Navaa
+	pos 581 871
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/void-scar
+			scale 8.0
+		distance 2200
+		period 2000
+		hazard "Predecessors Void Scar Erosion" 6
+	object
+		sprite star/f0
+		distance 40
+		period 80
+	object
+		sprite star/k-dwarf
+		distance 200
+		period 80
+	object
+		sprite planet/gas5
+		distance 2200
+		period 2000
+		object  
+			sprite planet/dust6-b
+			distance 380
+			period 60
+		
+system Uasoa-Khavri
+	pos 631 837
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/f0
+	object
+		sprite planet/gas2
+		distance 1230
+		period 1230
+		object
+			sprite planet/luna
+			distance 350
+			period 350
+		object
+			sprite planet/ice0
+			distance 500
+			period 500
+	object
+		sprite planet/forest1
+		distance 2890
+		period 2890
+		
+system Ouara-Kiraj-Nova
+	pos 623 740
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Kisii-Lova
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/g0
+	object
+		sprite planet/gas10
+		distance 1800
+		period 2000
+	object 
+		sprite planet/ice7
+		distance 2390
+		period 2000
+
+system Kisii-Lova
+	pos 551 767
+	government Uninhabited
+	habitable 320
+	shrouded
+	link Ouara-Kiraj-Nova
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite planet/browndwarf-l-rogue
+	object
+		sprite planet/ganymede
+		distance 800
+		period 800
+	object
+		sprite planet/desert4
+		distance 1250
+		period 2000
+	object
+		sprite planet/dust0
+		distance 4000
+		period -8000
+		
+system Khasi-Ryua
+	pos 728 837
+	government Uninhabited
+	habitable 320
+	shrouded
+	attributes predecessor "tangled shroud"
+	arrival 500
+	hazard "Predecessors Base Spatial Decay" 400
+	hazard "Predecessors Spatial Rift Weak" 10000
+	haze _menu/haze-tear
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas14-b
+		distance 1186.32
+		period 913.667
+		object
+			sprite planet/luna-b
+			distance 266
+			period 17.668
+		object  
+			sprite planet/ocean0-b
+			distance 422
+			period 31.607
+	object
+		sprite planet/cloud0
+		distance 2600
+		period 2600
+		object
+			sprite planet/desert4
+			distance 235.36
+			period 32
+	object
+		sprite planet/gas2
+		distance 3991.81
+		period 5639.49
+		object
+			sprite planet/rhea
+			distance 209
+			period 18.308
+		object
+			sprite planet/dust3
+			distance 322
+			period 35.011
+	object
+		sprite planet/rock13
+		distance 5600
+		period 10000
+		
+		
+		
+# West of Avgi Space
+system Ar-40
+	link "Se-78"
+	link "Ca-40"
+	link "P-31"
+
+system "Se-78"
+	shrouded
+	pos -776 1041
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 72
+	haze _menu/haze-tear
+	link Ar-40
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	fleet "Small Avgi Merchants" 36000
+	fleet "Large Avgi Merchants" 42000
+	fleet "Small Dissonance Pirates" 36000
+	fleet "Avgi Scouts" 12000
+	fleet "Avgi Patrol" 9000
+	fleet "Avgi Strike Group" 24000
+	fleet "Avgi Twilight Guard Logistics" 48000
+	fleet "Small Aberrant" 12000
+	fleet "Large Aberrant" 18000
+	hazard "Predecessors Base Spatial Decay" 2700
+	object
+		sprite planet/browndwarf-t-rogue
+	object
+		sprite planet/rock14
+		distance 843
+		period 979.042
+	object
+		sprite planet/gas6-b
+		distance 4538
+		period 12228.0
+		object
+			sprite planet/oberon
+			distance 364
+			period 427.707
+
+system "Se-79"
+	shrouded
+	pos -838 1069
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 72
+	haze _menu/haze-tear
+	asteroids "small metal" 3 3.564
+	hazard "Predecessors Base Spatial Decay" 900
+	hazard "Predecessors Spatial Rift Weak" 30000
+	object
+		sprite planet/browndwarf-l-rogue
+		distance 272
+		period 180
+		offset 180
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 272
+		period 180
+	object
+		sprite planet/gas7-hot
+		distance 1531
+		period 2396.19
+		object
+			sprite planet/rock3-b
+			distance 231
+			period 132.715
+	object
+		sprite planet/gas5
+		distance 3192.73
+		period 7216.12
+		object
+			sprite planet/luna
+			distance 293
+			period 189.584
+	object
+		sprite planet/rock0
+		distance 7459.16
+		period 25768.8
+
+			
+system "I-129"
+	shrouded
+	pos -763 1128
+	government Uninhabited
+	link "Sonata"
+	link "Ba-136"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 21
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	hazard "Predecessors Base Spatial Decay" 1200
+	hazard "Predecessors Spatial Rift Weak" 24000
+	object
+		sprite star/k5-old
+		period 10
+	object
+		sprite planet/ice8-b
+		distance 1783
+		period 977.068
+			
+system "Ba-136"
+	shrouded
+	pos -813 1154
+	government Uninhabited
+	link "Ba-138"
+	link "I-129"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 35
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/k0-old
+		period 204.702
+			
+system "Ba-138"
+	shrouded
+	pos -834 1138
+	government Uninhabited
+	link "Ba-136"
+	link "Ba-137"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 12
+	haze _menu/haze-tear
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	hazard "Predecessors Base Spatial Decay" 2700
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/gas10-b
+		distance 868
+		period 482.206
+	object
+		sprite planet/neptune-b
+		distance 3202
+		period 3416.53
+		object
+			sprite planet/europa
+			distance 220
+			period 154.364
+			
+system "Ba-137"
+	shrouded
+	pos -803 1113
+	government Uninhabited
+	link "Ba-138"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 35
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/titan
+		distance 914
+		period 951.288
+	object
+		sprite planet/gas11
+		distance 1777
+		period 2578.83
+		object
+			sprite planet/tethys
+			distance 281
+			period 290.104
+		object
+			sprite planet/rock0
+			distance 436
+			period 344.136
+	object
+		sprite planet/gas12-b
+		distance 4450
+		period 10219.5
+		object
+			sprite planet/dust5-b
+			distance 333
+			period 159.032
+			
+system "Rn-222"
+	shrouded
+	pos -897 1178
+	government Uninhabited
+	link "Madrigal"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 80
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas8-b
+		distance 1347.34
+		period 893.676
+		object
+			sprite planet/dust5-b
+			distance 352
+			period 172.835
+	object
+		sprite planet/gas0-b
+		distance 2934.66
+		period 2872.76
+		object
+			sprite planet/dust5
+			distance 307
+			period 140.775
+		object
+			sprite planet/ice7
+			distance 441
+			period 242.368
+	object
+		sprite planet/gas2-b
+		distance 5854.28
+		period 8094.17
+
+system Madrigal
+	link "Rn-222"
+	link Chorale
+	"jump range" 65
+
+system Sonata
+	link "Chorale"
+	link "I-129"
+
+system "Cs-133"
+	shrouded
+	pos -871 912
+	government Uninhabited
+	link "Kr-84"
+	link "Cs-132"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 80
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 2400
+	object
+		sprite planet/browndwarf-y-rogue
+	object
+		sprite planet/desert1-b
+		distance 648
+		period 659.815
+		object
+			sprite planet/dust3-b
+			distance 181
+			period 92.049
+	object
+		sprite planet/gas14
+		distance 2645.99
+		period 5444.32
+		object
+			sprite planet/tethys
+			distance 250
+			period 243.447
+		object
+			sprite planet/rock14
+			distance 405
+			period 213.305
+		object
+			sprite planet/rock20
+			distance 602
+			period 558.336
+	object
+		sprite planet/gas12
+		distance 5220.07
+		period 15086.0	
+
+system "Cs-132"
+	shrouded
+	pos -934 971
+	government Uninhabited
+	link "Cs-133"
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 58
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite planet/browndwarf-y-rogue
+	object
+		sprite planet/gas14
+		distance 3460.45
+		period 8142.53
+
+system Kr-84
+	link "Cs-133"
+	link "As-75"
+
+system "Po-209"
+	shrouded
+	pos -982 948
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	"jump range" 97
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 2700
+	object
+		sprite star/k0-old
+		distance 51.835
+		period 79.789
+	object
+		sprite star/k8
+		distance 183.665
+		period 79.789
+		offset 180
+	object
+		sprite planet/neptune-b
+		distance 2952
+		period 1746.09
+	object
+		sprite planet/gas10-b
+		distance 4492
+		period 3277.57
+		object
+			sprite planet/dust5-b
+			distance 244
+			period 99.748
+		object
+			sprite planet/io
+			distance 410
+			period 313.817
+		object
+			sprite planet/dust1-b
+			distance 590
+			period 445.714
+	object
+		sprite planet/browndwarf-t
+		distance 10519
+		period 11745.0
+			
+system "I-127"
+	shrouded
+	pos -1056 922
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/titan
+		distance 914
+		period 951.288
+	object
+		sprite planet/gas11
+		distance 1777
+		period 2578.83
+		object
+			sprite planet/tethys
+			distance 281
+			period 290.104
+		object
+			sprite planet/rock0
+			distance 436
+			period 344.136
+	object
+		sprite planet/gas12-b
+		distance 4450
+		period 10219.5
+		object
+			sprite planet/dust5-b
+			distance 333
+			period 159.032
+			
+system "Fr-223"
+	shrouded
+	pos -1059 870
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 900
+	hazard "Predecessors Spatial Rift Weak" 30000
+	object
+		sprite planet/browndwarf-l-rogue
+		distance 272
+		period 180
+		offset 180
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 272
+		period 180
+	object
+		sprite planet/gas7-hot
+		distance 1531
+		period 2396.19
+		object
+			sprite planet/rock3-b
+			distance 231
+			period 132.715
+	object
+		sprite planet/gas5
+		distance 3192.73
+		period 7216.12
+		object
+			sprite planet/luna
+			distance 293
+			period 189.584
+	object
+		sprite planet/rock0
+		distance 7459.16
+		period 25768.8
+
+system "Ra-226"
+	shrouded
+	pos -1100 985
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1200
+	hazard "Predecessors Spatial Rift Weak" 24000
+	object
+		sprite star/k5-old
+		period 10
+	object
+		sprite planet/ice8-b
+		distance 1783
+		period 977.068
+			
+system "Rb-85"
+	shrouded
+	pos -1124 1069
+	government Uninhabited
+	attributes "tangled shroud"
+	link "Rb-86"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas8-b
+		distance 1347.34
+		period 893.676
+		object
+			sprite planet/dust5-b
+			distance 352
+			period 172.835
+	object
+		sprite planet/gas0-b
+		distance 2934.66
+		period 2872.76
+		object
+			sprite planet/dust5
+			distance 307
+			period 140.775
+		object
+			sprite planet/ice7
+			distance 441
+			period 242.368
+	object
+		sprite planet/gas2-b
+		distance 5854.28
+		period 8094.17
+
+system "Rb-86"
+	shrouded
+	pos -1100 1093
+	government Uninhabited
+	attributes "tangled shroud"
+	link "Rb-85"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 2400
+	object
+		sprite planet/browndwarf-y-rogue
+	object
+		sprite planet/desert1-b
+		distance 648
+		period 659.815
+		object
+			sprite planet/dust3-b
+			distance 181
+			period 92.049
+	object
+		sprite planet/gas14
+		distance 2645.99
+		period 5444.32
+		object
+			sprite planet/tethys
+			distance 250
+			period 243.447
+		object
+			sprite planet/rock14
+			distance 405
+			period 213.305
+		object
+			sprite planet/rock20
+			distance 602
+			period 558.336
+	object
+		sprite planet/gas12
+		distance 5220.07
+		period 15086.0	
+
+system "Og-294"
+	shrouded
+	pos -1016 1126
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas8-b
+		distance 1347.34
+		period 893.676
+		object
+			sprite planet/dust5-b
+			distance 352
+			period 172.835
+	object
+		sprite planet/gas0-b
+		distance 2934.66
+		period 2872.76
+		object
+			sprite planet/dust5
+			distance 307
+			period 140.775
+		object
+			sprite planet/ice7
+			distance 441
+			period 242.368
+	object
+		sprite planet/gas2-b
+		distance 5854.28
+		period 8094.17
+			
+system "Xe-132"
+	shrouded
+	pos -1151 1133
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	link "Xe-131"
+	belt 1137
+	"jump range" 69
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/titan
+		distance 914
+		period 951.288
+	object
+		sprite planet/gas11
+		distance 1777
+		period 2578.83
+		object
+			sprite planet/tethys
+			distance 281
+			period 290.104
+		object
+			sprite planet/rock0
+			distance 436
+			period 344.136
+	object
+		sprite planet/gas12-b
+		distance 4450
+		period 10219.5
+		object
+			sprite planet/dust5-b
+			distance 333
+			period 159.032
+
+system "Xe-131"
+	shrouded
+	pos -1172 1176
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	link "Xe-132"
+	belt 1137
+	link "Xe-130"
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 900
+	hazard "Predecessors Spatial Rift Weak" 30000
+	object
+		sprite planet/browndwarf-l-rogue
+		distance 272
+		period 180
+		offset 180
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 272
+		period 180
+	object
+		sprite planet/gas7-hot
+		distance 1531
+		period 2396.19
+		object
+			sprite planet/rock3-b
+			distance 231
+			period 132.715
+	object
+		sprite planet/gas5
+		distance 3192.73
+		period 7216.12
+		object
+			sprite planet/luna
+			distance 293
+			period 189.584
+	object
+		sprite planet/rock0
+		distance 7459.16
+		period 25768.8
+			
+system "Xe-130"
+	shrouded
+	pos -1210 1178
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	link "Xe-131"
+	belt 1137
+	"jump range" 15
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1200
+	hazard "Predecessors Spatial Rift Weak" 24000
+	object
+		sprite star/k5-old
+		period 10
+	object
+		sprite planet/ice8-b
+		distance 1783
+		period 977.068
+	object "TS Wormhole Alpha"
+		sprite planet/wormhole
+		distance 4208.63
+		period 2158.49
+			
+			
+system "Sb-122"
+	shrouded
+	pos -1061 1223
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/k0-old
+		period 204.702
+	object "TS Wormhole Alpha"
+		sprite planet/wormhole
+		distance 4208.63
+		period 2158.49
+		
+		
+		
+planet "TS Wormhole Alpha"
+	wormhole "TS Wormhole Alpha"
+
+wormhole "TS Wormhole Alpha"
+	mappable
+	link "Xe-130" "Sb-122" 
+	link "Sb-122" "Xe-130"
+
+system "Sr-87"
+	shrouded
+	pos -1024 1287
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	link "Sr-88"
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 2700
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/gas10-b
+		distance 868
+		period 482.206
+	object
+		sprite planet/neptune-b
+		distance 3202
+		period 3416.53
+		object
+			sprite planet/europa
+			distance 220
+			period 154.364
+			
+
+system "Sr-88"
+	shrouded
+	pos -1043 1321
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	link "Sr-87"
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/titan
+		distance 914
+		period 951.288
+	object
+		sprite planet/gas11
+		distance 1777
+		period 2578.83
+		object
+			sprite planet/tethys
+			distance 281
+			period 290.104
+		object
+			sprite planet/rock0
+			distance 436
+			period 344.136
+	object
+		sprite planet/gas12-b
+		distance 4450
+		period 10219.5
+		object
+			sprite planet/dust5-b
+			distance 333
+			period 159.032
+	object "TS Wormhole Bravo"
+		sprite planet/wormhole
+		distance 4208.63
+		period 2158.49
+		
+system "Te-127"
+	shrouded
+	pos -947 1379
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas8-b
+		distance 1347.34
+		period 893.676
+		object
+			sprite planet/dust5-b
+			distance 352
+			period 172.835
+	object
+		sprite planet/gas0-b
+		distance 2934.66
+		period 2872.76
+		object
+			sprite planet/dust5
+			distance 307
+			period 140.775
+		object
+			sprite planet/ice7
+			distance 441
+			period 242.368
+	object
+		sprite planet/gas2-b
+		distance 5854.28
+		period 8094.17
+	object "TS Wormhole Bravo"
+		sprite planet/wormhole
+		distance 4208.63
+		period 2158.49
+		
+planet "TS Wormhole Bravo"
+	wormhole "TS Wormhole Bravo"
+
+wormhole "TS Wormhole Bravo"
+	mappable
+	link "Te-127" "Sr-88" 
+	link "Sr-88" "Te-127"
+
+
+system "Ts-294"
+	shrouded
+	pos -924 1302
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 2700
+	object
+		sprite planet/browndwarf-t-rogue
+	object
+		sprite planet/rock14
+		distance 843
+		period 979.042
+	object
+		sprite planet/gas6-b
+		distance 4538
+		period 12228.0
+		object
+			sprite planet/oberon
+			distance 364
+			period 427.707
+
+system "Sb-121"
+	shrouded
+	pos -928 1243
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1137
+	haze _menu/haze-tear
+	asteroids "small rock" 2 4.644
+	asteroids "large rock" 8 3.51
+	asteroids "small metal" 3 3.564
+	asteroids "large metal" 1 3.672
+	minables titanium 2 5.388
+	minables copper 8 4.361
+	hazard "Predecessors Base Spatial Decay" 1800
+	object
+		sprite planet/browndwarf-y-rogue
+	object
+		sprite planet/gas14
+		distance 3460.45
+		period 8142.53
+
+
+system "Te-128"
+	shrouded
+	pos -1116 1335
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1814
+	haze _menu/haze-tear
+	asteroids "medium metal" 13 5.468
+	asteroids "large metal" 1 6.634
+	minables lead 1 8.654
+	hazard "Predecessors Base Spatial Decay" 600
+	hazard "Predecessors Spatial Rift Weak" 12000
+	hazard "Predecessors Spatial Rift Intense" 24000
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite planet/desert6-b
+		distance 1451
+		period 312.662
+	object
+		sprite planet/ice0-b
+		distance 2681
+		period 785.272
+	object
+		sprite planet/gas9-b
+		distance 4699
+		period 1822.14
+		object
+			sprite planet/miranda-b
+			distance 239
+			period 174.787
+
+system "At-210"
+	shrouded
+	pos -1190 1000
+	government Uninhabited
+	attributes "tangled shroud"
+	arrival 500
+	habitable 100
+	belt 1814
+	haze _menu/haze-tear
+	asteroids "medium metal" 13 5.468
+	asteroids "large metal" 1 6.634
+	minables lead 1 8.654
+	hazard "Predecessors Base Spatial Decay" 600
+	hazard "Predecessors Spatial Rift Weak" 12000
+	hazard "Predecessors Spatial Rift Intense" 24000
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite planet/desert6-b
+		distance 1451
+		period 312.662
+	object
+		sprite planet/ice0-b
+		distance 2681
+		period 785.272
+	object
+		sprite planet/gas9-b
+		distance 4699
+		period 1822.14
+		object
+			sprite planet/miranda-b
+			distance 239
+			period 174.787
