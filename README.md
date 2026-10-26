@@ -1,5 +1,7 @@
 # Void-Expansion
 
+![Downloads](https://img.shields.io/github/downloads/livingadblocker/Void-Expansion/total)
+
 This plugin adds uninhabited systems to expand the Graveyard, the Tangled Shroud, and Predecessor space. 
 Not much else to this plugin really.
 
